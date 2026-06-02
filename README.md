@@ -18,7 +18,7 @@
 |---|---|---|---|---|
 | 10.000 |  525.35 ms| 64.07 ms  | QuickSort | saca una clara ventaja desde el inicio |
 | 50.000 | 1313.40 ms | 320.35 ms | QuickSort  | Insercion se empieza a notar bastante pesado |
-| 100.000 | 52535.89 ms | 64.07 ms  | QuickSort  | Insercion se tardo casi 52 segundos, mientras que el quicksort lo hizo al instante |
+| 100.000 | 52535.89 ms | 640.73 ms  | QuickSort  | Insercion se tardo casi 52 segundos, mientras que el quicksort lo hizo al instante |
 
 ## Tabla 2. Escenario 2: arreglo ordenado más una nueva persona
 
