@@ -62,7 +62,8 @@ Se debe redactar al menos tres conclusiones propias. Las conclusiones deben esta
 El contexto lo cambia todo. No existe un algoritmo que sea el mejor para todo. Aunque siempre repitan que QuickSort es rapidísimo, si el arreglo ya está casi ordenado, Inserción le gana sin problema.
 ________________________________________________
 - Conclusión 2: 
-El peor caso de un algoritmo puede ser un dolor de cabeza. Yo misma vi cómo QuickSort se cayó cuando le metí datos ya ordenados y usé un pivote fijo al final. La recursividad fue tanta que el sistema se quedó sin memoria y explotó (StackOverflow con 50k y 100k).________________________________________________
+El peor caso de un algoritmo puede ser un dolor de cabeza. Yo misma vi cómo QuickSort se cayó cuando le metí datos ya ordenados y usé un pivote fijo al final. La recursividad fue tanta que el sistema se quedó sin memoria y explotó (StackOverflow con 50k y 100k).
+________________________________________________
 - Conclusión 3: 
 Hacer pruebas reales ayuda un montón a entender la teoría. Una cosa es ver fórmulas en clase y otra, muy diferente, es ver cómo tu computadora se queda pegada esperando a que Inserción termine con 100k de datos desordenados.
 ________________________________________________
