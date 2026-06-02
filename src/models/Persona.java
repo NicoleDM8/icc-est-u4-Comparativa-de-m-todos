@@ -1,32 +1,33 @@
 package models;
 
 public class Persona {
-    private String name;
+    private String nombre;
     private int edad;
-
-    public Persona(String name, int edad) {
-        this.name = name;
+    public Persona(String nombre, int edad) {
+        this.nombre = nombre;
         this.edad = edad;
     }
-
-    public String getName() {
-        return name;
+    public String getNombre() {
+        return nombre;
     }
-
-    public void setName(String name) {
-        this.name = name;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
-
     public int getEdad() {
         return edad;
     }
-
     public void setEdad(int edad) {
         this.edad = edad;
     }
-
     @Override
     public String toString() {
-        return "Persona [name=" + name + ", edad=" + edad + "]";
+        return "Persona [nombre=" + nombre + ", edad=" + edad + "]";
+    }
+    public int getCriterioOrdenamiento(){
+        int valorNombre=0;
+        for (int i=0; i<nombre.length();i++){
+            valorNombre +=nombre.charAt(i);
+        }
+        return edad * 100000 +valorNombre;
     }
 }
